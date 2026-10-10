@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "name": "x64",
+      "generator": "Visual Studio 16 2019",
+      "configurationType": "Release",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\x64",
+      "installRoot": "${projectDir}\\out\\install\\x64",
+      "cmakeCommandArgs": "-A x64",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": ""
+    },
+    {
+      "name": "x86",
+      "generator": "Visual Studio 16 2019",
+      "configurationType": "Release",
+      "inheritEnvironments": [ "msvc_x64_x86" ],
+      "buildRoot": "${projectDir}\\out\\build\\x86",
+      "installRoot": "${projectDir}\\out\\install\\x86",
+      "cmakeCommandArgs": "-A Win32",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": ""
+    }
+  ]
+}
