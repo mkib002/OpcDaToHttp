@@ -1,6 +1,6 @@
 # OpcDaToHttp
 
-An **OPC DA → HTTP** bridge: the application reads tag values from an OPC DA server and serves them over HTTP by parameter name. The OPC part is built with **OPCClientToolKit** library.
+An **OPC DA → HTTP** bridge: the application reads tag values from an OPC DA server and serves them over HTTP by parameter name. The OPC part is built with **OPCClientToolKit** library (https://github.com/mkib002/OPC-Client-X64).
 
 ## Requirements
 
